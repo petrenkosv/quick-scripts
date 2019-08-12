@@ -1,4 +1,4 @@
-# quick-scripts
+# Quick Scripts - one day challenges
  
 - [T-Rex script](https://github.com/petrenkosv/quick-scripts/tree/master/T-Rex)
 
