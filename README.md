@@ -4,4 +4,4 @@
 
 Game plays automaticly. Dino jumps and ducks itself.
 
-[!Dino](https://media.giphy.com/media/3h3GgndiQfww20KTSi/giphy.gif)
+![Dino](https://media.giphy.com/media/3h3GgndiQfww20KTSi/giphy.gif)
