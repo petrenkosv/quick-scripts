@@ -4,17 +4,21 @@ import pyautogui
 import time
 
 class Cordinates():
-    replayBtn = (423,375)
-    dinasaur = (182,378)
+    replayBtn = (342,389)
+    dinasaur = (164,394)
     #240=x cordinates to check the tree
     #y cordinate = 374
 
 def restartGame():
     pyautogui.doubleClick(Cordinates.replayBtn)
+    pyautogui.keyDown('space')
+    time.sleep(0.2)
+    print("Start")
+    pyautogui.keyUp('space')
     
 def pressSpace():
     pyautogui.keyDown('space')
-    time.sleep(0.12)
+    time.sleep(0.15)
     print("Jump")
     pyautogui.keyUp('space')
     
@@ -27,9 +31,9 @@ def pressDown():
 
 def imageGrab():
     box = (
-        Cordinates.dinasaur[0]+95,
+        Cordinates.dinasaur[0]+89,
         Cordinates.dinasaur[1],
-        Cordinates.dinasaur[0]+140,
+        Cordinates.dinasaur[0]+134,
         Cordinates.dinasaur[1]+30
         )
     image = ImageGrab.grab(box)
