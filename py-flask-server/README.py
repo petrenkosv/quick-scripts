@@ -1,4 +1,3 @@
-`
 """ http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
 $ mkdir todo-api
 $ cd todo-api
@@ -8,10 +7,12 @@ Installing setuptools............................done.
 Installing pip...................done.
 $ flask/bin/pip install flask
 $ pip install flask-httpauth
+
 $ chmod a+x app.py
 $ ./app.py
  * Running on http://127.0.0.1:5000/
  * Restarting with reloader
+
 Won't run using $ ./app.py
 use
 $ python app.py
@@ -152,4 +153,3 @@ def delete_task(task_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
-`
