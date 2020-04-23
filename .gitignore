@@ -122,3 +122,13 @@ dmypy.json
 # Pyre type checker
 .pyre/
 T-Rex/screen-pic.png
+
+# GENERAL
+*vscode*
+
+# Search Keywords
+
+*.zip
+
+# Python Chatbot
+chatbot-on-python*
