@@ -130,5 +130,9 @@ T-Rex/screen-pic.png
 
 *.zip
 
-# Python Chatbot
+# chatbot-on-python
 chatbot-on-python*
+
+# py_parser-and-connect-to-Google
+*token.pickle
+*credentials*
